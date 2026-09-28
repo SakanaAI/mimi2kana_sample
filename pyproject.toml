@@ -1,0 +1,13 @@
+[project]
+name = "mimi2kana-sample"
+version = "0.1.0"
+description = "Standalone, offline-file inference for mimi2kana"
+requires-python = ">=3.10"
+dependencies = [
+    "huggingface-hub>=0.34,<2",
+    "librosa>=0.11,<0.12",
+    "loguru>=0.7,<0.8",
+    "torch>=2.9.1,<3",
+    "transformers==5.2.0",
+    "tyro>=0.9,<1",
+]
