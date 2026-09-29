@@ -854,6 +854,7 @@ dependencies = [
     { name = "huggingface-hub" },
     { name = "librosa" },
     { name = "loguru" },
+    { name = "pynini" },
     { name = "torch" },
     { name = "transformers" },
     { name = "tyro" },
@@ -864,6 +865,7 @@ requires-dist = [
     { name = "huggingface-hub", specifier = ">=0.34,<2" },
     { name = "librosa", specifier = ">=0.11,<0.12" },
     { name = "loguru", specifier = ">=0.7,<0.8" },
+    { name = "pynini", specifier = "==2.1.7" },
     { name = "torch", specifier = ">=2.9.1,<3" },
     { name = "transformers", specifier = "==5.2.0" },
     { name = "tyro", specifier = ">=0.9,<1" },
@@ -1482,6 +1484,23 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/49/2e/ced460408999b33da6b31b0021b0f37d329e202d4169aeb164493778f25b/pygments-2.21.0.tar.gz", hash = "sha256:610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c", size = 5005329, upload-time = "2026-08-17T08:02:48.824Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl", hash = "sha256:2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9", size = 1250147, upload-time = "2026-08-17T08:02:44.912Z" },
+]
+
+[[package]]
+name = "pynini"
+version = "2.1.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/b6/09a0efe843df37d9c80a9a1c190c7bb28d8920cee401e2a61c46f1328ec1/pynini-2.1.7.tar.gz", hash = "sha256:fc06cc02adcbd4b14eb94ae9f2a0949d110612d2d4ee3a7ac5dc97b45fff8e33", size = 789771, upload-time = "2025-09-04T22:15:39.628Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b0/20/fd233d658ce68b335ba6387dbc9497288c00b13d1bd54f47156bf785948d/pynini-2.1.7-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:644f75b67a591f668b26318b6d98514a85be5264b4117f50f358901e4513c901", size = 165420949, upload-time = "2025-09-04T22:05:41.092Z" },
+    { url = "https://files.pythonhosted.org/packages/62/4b/d3a90b0355e28bcd28e4377b9d2b536884de9ae9aa74a78886971467a8dd/pynini-2.1.7-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d078331bf24d2f46d3ff8940f558b88ce059ad72a37c0019b0411b03a136d986", size = 165557802, upload-time = "2025-09-04T22:05:48.195Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/16/8624f73412f4571517dc97e027c6b73db849c7c649aad70aa2dd168834a1/pynini-2.1.7-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:574985fb1cae220ac96caa30476d764fe6d8991cc4f378d83e276591118eb10a", size = 165508989, upload-time = "2025-09-04T22:05:54.495Z" },
+    { url = "https://files.pythonhosted.org/packages/a9/9b/dcbf23733cd57a86dc4aa425aba2a4efff301acf152e50065c232449ade6/pynini-2.1.7-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:764ae36dd9f3480e88c4d4046d108a74c4923510d0aa93062debfe1f742b356f", size = 165495070, upload-time = "2025-09-04T22:06:00.483Z" },
+    { url = "https://files.pythonhosted.org/packages/88/c2/d47eae721b2ac558d72c61250ee64918cff453e40d5c02db53ec21983ef9/pynini-2.1.7-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a7e59fc8ac5eed9234f9d394e882bd7048808590e15abcce5ce03662b8e5ea79", size = 165409045, upload-time = "2025-09-04T22:06:08.351Z" },
+    { url = "https://files.pythonhosted.org/packages/27/23/74fb65f0cdd345b8b186f80a3bdd318e93906b572cd82721a16bee9b1eaa/pynini-2.1.7-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:aaf2171cf5d744961d1080a680f1725807b4d179588a6ad3135596c2e0e06bc0", size = 165463702, upload-time = "2025-09-04T22:06:17.204Z" },
+    { url = "https://files.pythonhosted.org/packages/61/41/fd9c867fbe1a9141ea57a59e6a8b087ba88f19e97bd46b39dcf77ed00ecb/pynini-2.1.7-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:2bb5de3d52056a228dd48a6d027fc279f0c94a11f28bc43b79c43a1624ec032d", size = 165404717, upload-time = "2025-09-04T22:06:23.494Z" },
+    { url = "https://files.pythonhosted.org/packages/a1/e5/3b37743563f9b63101de6cf7c66bb895767f38dc47970ec9545a60740693/pynini-2.1.7-pp310-pypy310_pp73-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:64403cb3fe1ca265a74688ba35fb294ed38eb8c7645c109e24225befcf9b0dee", size = 100613739, upload-time = "2025-09-04T22:06:34.979Z" },
+    { url = "https://files.pythonhosted.org/packages/5e/19/3a97b5eb33ea23e8e918957ddffd2c5d08582a7aef0abdd9fcdaba3143b1/pynini-2.1.7-pp311-pypy311_pp73-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:9ac00901ad876f684dc7d3f57057545e9a064149f3e87ff2dd08b38ab1dc0f90", size = 100623057, upload-time = "2025-09-04T22:06:39.644Z" },
 ]
 
 [[package]]
